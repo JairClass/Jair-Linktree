@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+p{
+    margin-bottom: 0.5rem;
+    color: #e4e4e4;
+}
+
+/* LOADER */
+.loader {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 500ms ease;
+    z-index: 9;
+}
+
+.loader .loader_circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    border-top: 2px solid white;
+    animation: rotate 500ms linear infinite;
+}
+
+/* ANIMAÇÃO */
+@keyframes rotate {
+    from{
+        transform: rotate (0deg);
+    }
+    to{
+        transform: rotate (360deg);
+    }
+}
+
+/* CONTAINER */
+.container {
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.container video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.container .link-bio{
+    position: relative;
+    z-index: 2;
+    width: 30vw;
+    margin: 0 auto;
+}
+
+.container .link-bio .profile-photo{
+    margin: 0 auto;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.container .link-bio .profile-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
+.container .link-bio p{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.container .link-bio .link-buttons ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.container .link-bio .link-buttons ul li{
+    background: rgb(255, 255, 255);
+    transition: background 300ms ease;
+}
+
+.container .link-bio .link-buttons ul li a{
+    color: black;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container .link-bio .link-buttons ul li:hover a {
+    color: white;
+}
+
+.container .link-bio .link-buttons ul li:nth-child(1):hover {
+    background: #462ac4;
+}
+
+.container .link-bio .link-buttons ul li:nth-child(2):hover {
+    background: #2765b6;
+}
+
+.container .link-bio .link-buttons ul li:nth-child(3):hover {
+    background: #423d3f;
+}
+
+.container .link-bio .link-buttons ul li:nth-child(4):hover {
+    background: #c42c6e;
+}
+
+.container .link-bio .link-buttons ul li:nth-child(5):hover {
+    background: #27881b;
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 768px) {
+    .container .link-bio {
+        width: 80%;
+    }
+
+    .container .link-bio .profile-photo {
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container .link-bio {
+        width: 95%;
+    }
+
+    .container .link-bio .profile-photo {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .container .link-bio .link-buttons ul li a {
+        font-size: 0.9rem;
+        padding: 0.8rem 0.8rem;
+    }
+}
