@@ -167,3 +167,53 @@ p{
         padding: 0.8rem 0.8rem;
     }
 }
+
+/* Ajustes para resoluções de 1024x600 (tablets menores) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .error-container {
+        padding-left: 1rem;
+    }
+
+    .error-container h1 {
+        font-size: 4rem;
+    }
+
+    .error-container p {
+        font-size: 1rem;
+    }
+
+    .home-button {
+        padding: 12px 24px;
+        font-size: 0.9rem;
+    }
+
+    #videoControl {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+}
+
+/* Ajustes para iPad Pro e telas semelhantes */
+@media screen and (min-width: 1025px) {
+    .error-container {
+        padding-left: 2rem;
+    }
+
+    .error-container h1 {
+        font-size: 5rem;
+    }
+
+    .error-container p {
+        font-size: 1.2rem;
+    }
+
+    .home-button {
+        padding: 15px 30px;
+        font-size: 1.1rem;
+    }
+
+    #videoControl {
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+}

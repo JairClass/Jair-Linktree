@@ -177,20 +177,12 @@ p{
 }
 
 /* RESPONSIVIDADE */
+
+
+/* Ajustes para tablets */
 @media screen and (max-width: 768px) {
     .container .link-bio {
         width: 80%;
-    }
-
-    .container .link-bio .profile-photo {
-        width: 10rem;
-        height: 10rem;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .container .link-bio {
-        width: 95%;
     }
 
     .container .link-bio .profile-photo {
@@ -199,7 +191,95 @@ p{
     }
 
     .container .link-bio .link-buttons ul li a {
-        font-size: 0.9rem;
-        padding: 0.8rem 0.8rem;
+        font-size: 0.8rem;
+        padding: 0.7rem 0.7rem;
+    }
+
+    .error-container h1 {
+        font-size: 4rem;
+    }
+
+    .error-container p {
+        font-size: 1.2rem;
+    }
+
+    #videoControl {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+}
+
+/* Ajustes para smartphones */
+@media screen and (max-width: 480px) {
+    .container .link-bio {
+        width: 95%;
+    }
+
+    .container .link-bio .profile-photo {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .container .link-bio .link-buttons ul li a {
+        font-size: 0.7rem;
+        padding: 0.6rem 0.6rem;
+    }
+
+    .error-container h1 {
+        font-size: 3rem;
+    }
+
+    .error-container p {
+        font-size: 1rem;
+    }
+
+    #videoControl {
+        top: 15px;
+        right: 15px;
+        padding: 7px 10px;
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .container .link-bio {
+        width: 70%; /* Ajusta a largura para evitar compressão */
+    }
+
+    .container .link-bio .profile-photo {
+        width: 9rem; /* Ajusta o tamanho da foto de perfil */
+        height: 9rem;
+    }
+
+    .container .link-bio .link-buttons ul li a {
+        font-size: 0.85rem; /* Ajusta o tamanho da fonte dos botões */
+        padding: 0.75rem 0.75rem;
+    }
+
+    #videoControl {
+        padding: 9px 13px;
+        font-size: 0.85rem;
+    }
+}
+
+/* Ajustes para iPad Pro */
+@media screen and (min-width: 1025px) {
+    .container .link-bio {
+        width: 60%; /* Aumenta a largura para aproveitar melhor o espaço */
+    }
+
+    .container .link-bio .profile-photo {
+        width: 10rem; /* Aumenta o tamanho da foto de perfil */
+        height: 10rem;
+    }
+
+    .container .link-bio .link-buttons ul li a {
+        font-size: 1rem; /* Aumenta o tamanho da fonte dos botões */
+        padding: 1rem 1rem;
+    }
+
+    #videoControl {
+        padding: 10px 15px;
+        font-size: 1rem;
     }
 }
