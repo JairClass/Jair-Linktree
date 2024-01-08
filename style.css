@@ -25,6 +25,27 @@ p{
     color: #e4e4e4;
 }
 
+/* VIDEO CONTROL */
+#videoControl {
+    position: absolute; 
+    top: 20px; 
+    right: 20px; 
+    padding: 10px 15px;
+    background-color: #3e1d4e; 
+    color: white; 
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 300ms ease, transform 300ms ease;
+    z-index: 10; 
+}
+
+#videoControl:hover {
+    background-color: #7F4D7F; 
+    transform: scale(1.1); 
+}
+
 /* LOADER */
 .loader {
     position: absolute;
@@ -110,8 +131,8 @@ p{
 }
 
 .container .link-bio .link-buttons ul li{
-    background: rgba(254, 254, 254, 0.816);
-    transition: background 300ms ease;
+    background: rgba(254, 254, 254, 0.683);
+    transition: background-color 300ms ease, transform 300ms ease;
 }
 
 .container .link-bio .link-buttons ul li a{
@@ -123,6 +144,10 @@ p{
     justify-content: center;
 }
 
+.container .link-bio .link-buttons ul li:hover {
+    transform: scale(1.05);
+}
+
 .container .link-bio .link-buttons ul li:hover a {
     color: white;
 }
@@ -131,24 +156,27 @@ p{
     background: #462ac4;
 }
 
-.container .link-bio .link-buttons ul li:nth-child(2):hover {
+.container .link-bio .link-buttons ul li:nth-child(3):hover {
     background: #2765b6;
 }
 
-.container .link-bio .link-buttons ul li:nth-child(3):hover {
+.container .link-bio .link-buttons ul li:nth-child(4):hover {
     background: #423d3f;
 }
 
-.container .link-bio .link-buttons ul li:nth-child(4):hover {
+.container .link-bio .link-buttons ul li:nth-child(5):hover {
     background: #c42c6e;
 }
 
-.container .link-bio .link-buttons ul li:nth-child(5):hover {
-    background: #27881b;
+.container .link-bio .link-buttons ul li:nth-child(2):hover {
+    background: #b8bd2a;
+}
+
+.container .link-bio .link-buttons ul li:nth-child(6):hover {
+    background: #39ad29;
 }
 
 /* RESPONSIVIDADE */
-
 @media screen and (max-width: 768px) {
     .container .link-bio {
         width: 80%;
