@@ -21,4 +21,3 @@ window.onload = function(){
      // Adiciona o evento de clique no botão
     videoControlButton.addEventListener('click', toggleVideoPlayback);
 };
-
