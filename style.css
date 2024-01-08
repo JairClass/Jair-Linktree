@@ -1,4 +1,5 @@
-*{
+/* Reset CSS e configurações básicas */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,11 +7,16 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     list-style-type: none;
+    -webkit-font-smoothing: antialiased;  /* Melhora a suavidade das fontes no Webkit (Chrome, Safari) */
+    -moz-osx-font-smoothing: grayscale;   /* Melhora a suavidade das fontes no Firefox */
+    text-rendering: optimizeLegibility;   /* Otimiza a legibilidade do texto */
+    font-feature-settings: 'kern';        /* Habilita o kerning para melhor espaçamento de caracteres */
 }
 
 html {
     overflow: hidden;
     height: 100%;
+    scroll-behavior: smooth; /* Suaviza o efeito de rolagem */
 }
 
 body {
@@ -18,9 +24,10 @@ body {
     max-width: 100%;
     height: 100vh;
     background: black;
+    line-height: 1.6; 
 }
 
-p{
+p {
     margin-bottom: 0.5rem;
     color: #e4e4e4;
 }
@@ -57,7 +64,7 @@ p{
     z-index: 9;
 }
 
-.loader .loader_circle{
+.loader .loader_circle {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -68,11 +75,11 @@ p{
 
 /* ANIMAÇÃO */
 @keyframes rotate {
-    from{
-        transform: rotate (0deg);
+    from {
+        transform: rotate(0deg);
     }
-    to{
-        transform: rotate (360deg);
+    to {
+        transform: rotate(360deg);
     }
 }
 
@@ -86,7 +93,7 @@ p{
     padding: 0 1rem;
 }
 
-.container video{
+.container video {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -97,14 +104,14 @@ p{
     opacity: 0.5;
 }
 
-.container .link-bio{
+.container .link-bio {
     position: relative;
     z-index: 2;
     width: 30vw;
     margin: 0 auto;
 }
 
-.container .link-bio .profile-photo{
+.container .link-bio .profile-photo {
     margin: 0 auto;
     width: 12rem;
     height: 12rem;
@@ -112,30 +119,30 @@ p{
     overflow: hidden;
 }
 
-.container .link-bio .profile-photo img{
+.container .link-bio .profile-photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    }
+}
 
-.container .link-bio p{
+.container .link-bio p {
     text-align: center;
     margin-top: 1rem;
 }
 
-.container .link-bio .link-buttons ul{
+.container .link-bio .link-buttons ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
 }
 
-.container .link-bio .link-buttons ul li{
+.container .link-bio .link-buttons ul li {
     background: rgba(254, 254, 254, 0.683);
     transition: background-color 300ms ease, transform 300ms ease;
 }
 
-.container .link-bio .link-buttons ul li a{
+.container .link-bio .link-buttons ul li a {
     color: black;
     font-size: 1rem;
     padding: 1rem 1rem;
@@ -177,7 +184,6 @@ p{
 }
 
 /* RESPONSIVIDADE */
-
 
 /* Ajustes para tablets */
 @media screen and (max-width: 768px) {
@@ -243,16 +249,16 @@ p{
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
     .container .link-bio {
-        width: 70%; /* Ajusta a largura para evitar compressão */
+        width: 70%; 
     }
 
     .container .link-bio .profile-photo {
-        width: 9rem; /* Ajusta o tamanho da foto de perfil */
+        width: 9rem; 
         height: 9rem;
     }
 
     .container .link-bio .link-buttons ul li a {
-        font-size: 0.85rem; /* Ajusta o tamanho da fonte dos botões */
+        font-size: 0.85rem;
         padding: 0.75rem 0.75rem;
     }
 
@@ -265,16 +271,16 @@ p{
 /* Ajustes para iPad Pro */
 @media screen and (min-width: 1025px) {
     .container .link-bio {
-        width: 60%; /* Aumenta a largura para aproveitar melhor o espaço */
+        width: 60%; 
     }
 
     .container .link-bio .profile-photo {
-        width: 10rem; /* Aumenta o tamanho da foto de perfil */
+        width: 10rem; 
         height: 10rem;
     }
 
     .container .link-bio .link-buttons ul li a {
-        font-size: 1rem; /* Aumenta o tamanho da fonte dos botões */
+        font-size: 1rem; 
         padding: 1rem 1rem;
     }
 
