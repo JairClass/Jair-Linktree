@@ -25,6 +25,16 @@ O layout da aplicação:
   <a href="./imagens-videos/thumbnail.jpg">
     <img alt="Thumbnail do Site" src="./imagens-videos/thumbnail.jpg">
   </a>
+
+  <p align="center">
+  <a href="./imagens-videos/thumbnail.jpg">
+    <img alt="pPágina de erro 404" src="./imagens-videos/thumbnail2.jpg">
+  </a>
+
+  <p align="center">
+  <a href="./imagens-videos/thumbnail.jpg">
+    <img alt="Página de erro 404" src="./imagens-videos/thumbnail3.jpg">
+  </a>
 				      
 ---
 
