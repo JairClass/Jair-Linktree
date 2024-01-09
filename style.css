@@ -33,6 +33,14 @@ p {
     color: #e4e4e4;
 }
 
+#meuAudio {
+    /* Exemplo de estilização */
+    width: 100%; 
+    max-width: 300px; /* Ajuste conforme necessário */
+    /* Outras propriedades de estilo */
+}
+
+
 /* VIDEO CONTROL */
 #videoControl {
     position: absolute; 

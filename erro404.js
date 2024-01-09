@@ -3,6 +3,7 @@ window.onload = function(){
     setTimeout(() => {
         document.querySelector(".loader").style.display = "none"; 
     }, 1000);
+
      // Seleciona o vídeo e o botão
     const video = document.querySelector("video");
     const videoControlButton = document.getElementById("videoControl");
