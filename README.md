@@ -2,6 +2,8 @@
 	Página de Linktree
 </h1>
 
+---
+
 <p align="center">
   <a href="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge">
     <img alt="Badge em Desenvolvimento" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge">
@@ -11,6 +13,7 @@
     <img alt="GitHub Org's stars" src="https://img.shields.io/github/stars/jairclass?style=social">
 </p>
 
+---
 
 ## 💻 Sobre o projeto
 Este projeto é uma página de Linktree personalizada, criada com o objetivo de praticar e demonstrar habilidades em HTML, CSS e JavaScript. A página serve como um hub centralizado para links importantes, permitindo um acesso fácil a diferentes plataformas e redes sociais.
@@ -24,6 +27,16 @@ O layout da aplicação:
 <p align="center">
   <a href="./imagens-videos/thumbnail.jpg">
     <img alt="Thumbnail do Site" src="./imagens-videos/thumbnail.jpg">
+  </a>
+
+  <p align="center">
+  <a href="./imagens-videos/thumbnail.jpg">
+    <img alt="pPágina de erro 404" src="./imagens-videos/thumbnail2.jpg">
+  </a>
+
+  <p align="center">
+  <a href="./imagens-videos/thumbnail.jpg">
+    <img alt="Página de erro 404" src="./imagens-videos/thumbnail3.jpg">
   </a>
 				      
 ---
@@ -45,6 +58,23 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  
 -   Fontes:  **[Poppins](https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap)**
 -   Servidor:  **[Xampp](https://www.apachefriends.org/pt_br/download.html)**
+
+---
+
+## 🌟 Características Únicas
+
+### Botão de Pausar o Vídeo
+Este recurso permite aos usuários controlar o vídeo de fundo, melhorando a interatividade e a personalização da experiência do usuário.
+
+---
+
+## 📚 Desafios e Aprendizados
+
+### Desafios
+O projeto envolveu desafios como a integração do design inspirado em "Jujutsu Kaisen" e garantir a responsividade em dispositivos variados.
+
+### Aprendizados
+Superar esses desafios enriqueceu minhas habilidades em CSS para designs visuais impactantes e JavaScript para funcionalidades dinâmicas.
 
 ---
 
