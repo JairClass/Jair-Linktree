@@ -172,23 +172,28 @@ p {
     background: #462ac4;
 }
 
-.container .link-bio .link-buttons ul li:nth-child(3):hover {
-    background: #2765b6;
+.container .link-bio .link-buttons ul li:nth-child(2):hover {
+    background: #c2c72f;
+    ;
 }
 
 .container .link-bio .link-buttons ul li:nth-child(4):hover {
-    background: #423d3f;
+    background: #2765b6;
 }
 
 .container .link-bio .link-buttons ul li:nth-child(5):hover {
-    background: #c42c6e;
-}
-
-.container .link-bio .link-buttons ul li:nth-child(2):hover {
-    background: #b8bd2a;
+    background: #423d3f;
 }
 
 .container .link-bio .link-buttons ul li:nth-child(6):hover {
+    background: #c42c6e;
+}
+
+.container .link-bio .link-buttons ul li:nth-child(3):hover {
+    background: #b66f27;
+}
+
+.container .link-bio .link-buttons ul li:nth-child(7):hover {
     background: #39ad29;
 }
 
