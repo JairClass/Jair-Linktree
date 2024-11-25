@@ -1,5 +1,5 @@
 <h1 align="center"> 
-	Página de Linktree
+	Página de Linktree - Satoru Gojo | Jujutsu Kaisen
 </h1>
 
 ---
@@ -16,7 +16,7 @@
 ---
 
 ## 💻 Sobre o projeto
-Este projeto é uma página de Linktree personalizada, criada com o objetivo de praticar e demonstrar habilidades em HTML, CSS e JavaScript. A página serve como um hub centralizado para links importantes, permitindo um acesso fácil a diferentes plataformas e redes sociais.
+Este projeto é uma página de Linktree personalizada no personagem "Satoru Gojo" do anime "Jujutsu Kaisen", criada com o objetivo de praticar e demonstrar habilidades em HTML, CSS e JavaScript. A página serve como um hub centralizado para links importantes, permitindo um acesso fácil a diferentes plataformas e redes sociais.
 
 ---
 
@@ -71,7 +71,7 @@ Este recurso permite aos usuários controlar o vídeo de fundo, melhorando a int
 ## 📚 Desafios e Aprendizados
 
 ### Desafios
-O projeto envolveu desafios como a integração do design inspirado em "Jujutsu Kaisen" e garantir a responsividade em dispositivos variados.
+O projeto envolveu desafios como a integração do design inspirado no personagem "Satoru Gojo" do anime "Jujutsu Kaisen" e garantir a responsividade em dispositivos variados.
 
 ### Aprendizados
 Superar esses desafios enriqueceu minhas habilidades em CSS para designs visuais impactantes e JavaScript para funcionalidades dinâmicas.
